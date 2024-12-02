@@ -13,13 +13,8 @@ void main(){
 
     printf("Type inner radius: ");
     scanf("%d",&inner_radius);
-
-    for(int i=0;i<50;i++){
-        printf("%d",i);
-    }
     printf("\n");
     for(int i=0;i<70;i++){
-        printf("%d\t",i);
         for(int j=0;j<70;j++){
             int random = rand()%94;
             random+=33;
